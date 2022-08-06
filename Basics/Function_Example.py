@@ -21,5 +21,6 @@ def div():
     c = a / b
     print(c)
 
+
 def m1():
     print("Hi")
