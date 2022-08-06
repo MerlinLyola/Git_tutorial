@@ -14,8 +14,7 @@ def mul():
     a, b = 10, 10
     c = a * b
     print(c)
-    
-    
+
 
 def div():
     a, b = 10, 5
