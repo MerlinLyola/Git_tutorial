@@ -20,3 +20,6 @@ def div():
     a, b = 10, 5
     c = a / b
     print(c)
+
+def m1():
+    print("Hi")
