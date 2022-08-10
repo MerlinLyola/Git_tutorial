@@ -4,8 +4,8 @@ from selenium.webdriver.edge.service import Service
 
 
 def test_Guru99():
-    s = Service(executable_path="C:/Users/PC/Desktop/Selenium Driver files/msedgedriver.exe")
-    driver = webdriver.Edge(service=s)
+    s = Service(executable_path="C:\\Users\\PC\\Desktop\\Selenium Driver files\\chromedriver.exe")
+    driver = webdriver.Chrome(service=s)
     driver.get('https://demo.guru99.com/test/newtours/register.php')
     driver.maximize_window()
     driver.implicitly_wait(30)
